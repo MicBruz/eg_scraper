@@ -7,8 +7,8 @@
     <list default="true" id="424f13cd-6ab4-4df2-b0e3-30ee1b7e8a28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/scrapers_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/scrapers_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/scrapers/get_data.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/scrapers/get_data.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/scrapers/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/scrapers/home.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642857122551</updated>
-      <workItem from="1642857127636" duration="26567000" />
+      <workItem from="1642857127636" duration="30427000" />
     </task>
     <servers />
   </component>

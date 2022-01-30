@@ -1,5 +1,30 @@
-<h1>Scrapers#home</h1>
-<p>Find me in app/views/scrapers/home.html.erb</p>
 <div class="container mt-5">
+  <h1 class="title">Scrapers#home</h1>
+</div>
+<div class="container mt-5">
+  <h2 class="subtitle">Click to get data about fragrances</h2>
   <button class="button is-info"><%= link_to 'Get data', '/scrapers/get_data' %></button>
+</div>
+<div class="container mt-5">
+  <h2 class="subtitle">Available fragrances number</h2>
+  <table class="table is-bordered ">
+    <tbody>
+      <tr>
+        <td>Męskie</td>
+        <td><%= @number_of_mens_fragrances %></td>
+      </tr>
+      <tr>
+        <td>Damskie</td>
+        <td><%= @number_of_womens_fragrances %></td>
+      </tr>
+      <tr>
+        <td>Unisex</td>
+        <td><%= @number_of_unisex_fragrances %></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>last pull date: <%= "#{2+2}" %></p>
+
+
+
 </div>
