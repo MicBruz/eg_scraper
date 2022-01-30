@@ -1,0 +1,33 @@
+<div class="container mt-5">
+  <h1 class="title">Scrapers get_data</h1>
+  <h2 class="subtitle">Elnino #page 1</h2>
+
+  <div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Variant</th>
+          <th>Price</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+<%# working on @testing variable not to pull data everytime %>
+      <tbody>
+        <% @testing.each do |item| %>
+        <tr>
+          <% item[1].each do |variant| %>
+         <tr>
+           <td><%= item[0] %></td>
+           <td><%= variant[:variant_name]%></td>
+           <td><%= variant[:variant_price] %></td>
+           <td><%= link_to variant[:url], "https://#{variant[:url]}" %></td>
+         </tr>
+          <% end %>
+        <% end %>
+      </tbody>
+
+    </table>
+  </div>
+
+</div>
