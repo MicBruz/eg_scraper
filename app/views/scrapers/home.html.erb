@@ -3,7 +3,8 @@
 </div>
 <div class="container mt-5">
   <h2 class="subtitle">Click to get data about fragrances</h2>
-  <button class="button is-info"><%= link_to 'Get data', '/scrapers/get_data' %></button>
+  <button class="button is-info"><%= link_to 'Get data', '/scrapers/get_items' %></button>
+  <button class="button is-info"><%= link_to 'Refresh', '/scrapers/refresh_numbers' %></button>
 </div>
 <div class="container mt-5">
   <h2 class="subtitle">Available fragrances number</h2>
@@ -14,16 +15,12 @@
         <td><%= @number_of_mens_fragrances %></td>
       </tr>
       <tr>
-        <td>Damskie</td>
-        <td><%= @number_of_womens_fragrances %></td>
-      </tr>
-      <tr>
         <td>Unisex</td>
         <td><%= @number_of_unisex_fragrances %></td>
       </tr>
     </tbody>
   </table>
-  <p>last pull date: <%= "#{2+2}" %></p>
+  <p>last pull date: <%= @last_pull %></p>
 
 
 

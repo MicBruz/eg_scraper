@@ -1,0 +1,2 @@
+class FilteredBySex < ApplicationRecord
+end
