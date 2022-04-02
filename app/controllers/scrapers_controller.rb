@@ -8,7 +8,6 @@ class ScrapersController < ApplicationController
   def home
     @number_of_mens_fragrances = FilteredBySex.last.male
     @number_of_unisex_fragrances = FilteredBySex.last.unisex
-
     @last_pull = FilteredBySex.last.created_at if FilteredBySex.last.present?
   end
 
@@ -30,18 +29,6 @@ class ScrapersController < ApplicationController
       end
       @items_sorted[name_heureka] = variants
     end
-  end
-  
-  def refresh_numbers
-    call_elnino_api
-
-    @number_of_mens_fragrances = @current_fragrances_number[0]['count']
-    @number_of_unisex_fragrances = @current_fragrances_number[2]['count']
-    
-    new_numbers = FilteredBySex.new(male: @number_of_mens_fragrances, unisex: @number_of_unisex_fragrances)
-    new_numbers.save
-
-    redirect_back(fallback_location: root_path)
   end
 
 end

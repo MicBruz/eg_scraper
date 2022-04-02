@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
-  
+
   private
-  
+
   def call_elnino_api
     url = URI('https://www.e-glamour.pl/services/stargate/product-list?c=613&f%5C%5Bsex%5C%5D%5C%5B%5C%5D=4&f%5C%5Bsex%5C%5D%5C%5B%5C%5D=5&page=3')
 
@@ -32,5 +32,5 @@ class ApplicationController < ActionController::Base
     @current_fragrances_number = response['filter'][0]['items']
     @items_data = { items: response['items'] }
   end
-  
+
 end
