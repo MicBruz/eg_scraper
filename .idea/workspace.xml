@@ -2,60 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52d92e04-5e0f-4c9a-bcae-b2d8fac5c314" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/DevcampPortfolio_development.blZROQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/DevcampPortfolio_development.blZROQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/DevcampPortfolio_development.blZROQ/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/DevcampPortfolio_development.blZROQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/DevcampPortfolio_development.blZROQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/DevcampPortfolio_test.vy74Qw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/DevcampPortfolio_test.vy74Qw/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/DevcampPortfolio_test.vy74Qw/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/DevcampPortfolio_test.vy74Qw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/DevcampPortfolio_test.vy74Qw/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/DevcampPortfolio_test.vy74Qw/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/arkademy_shopp_development.67AKHA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/arkademy_shopp_development.67AKHA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/arkademy_shopp_development.67AKHA/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/arkademy_shopp_development.67AKHA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/arkademy_shopp_development.67AKHA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/arkademy_shopp_development.67AKHA/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/arkademy_shopp_test.4vZWOg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/arkademy_shopp_test.4vZWOg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/arkademy_shopp_test.4vZWOg/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/arkademy_shopp_test.4vZWOg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/arkademy_shopp_test.4vZWOg/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/arkademy_shopp_test.4vZWOg/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/eglam_scraper_development.sYKyXw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/eglam_scraper_development.sYKyXw/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/eglam_scraper_development.sYKyXw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/eglam_scraper_development.sYKyXw/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/eglam_scraper_test.3PfU_g.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/eglam_scraper_test.3PfU_g/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/eglam_scraper_test.3PfU_g/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/eglam_scraper_test.3PfU_g/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/michal.7HL2vw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/michal.7HL2vw/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/michal.7HL2vw/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/michal.7HL2vw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/michal.7HL2vw/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/michal.7HL2vw/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2c1e6bc2-6b44-4473-a86f-281307a90fa3/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/eglam_scraper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/eglam_scraper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/filtered_by_sex_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/filtered_by_sex_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/scrapers_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/scrapers_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/scrapers/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/scrapers/home.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +25,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: eglam_scraper">
@@ -183,6 +135,7 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="52d92e04-5e0f-4c9a-bcae-b2d8fac5c314" name="Changes" comment="" />
@@ -190,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648934016526</updated>
-      <workItem from="1648934022132" duration="305000" />
+      <workItem from="1648934022132" duration="1996000" />
     </task>
     <servers />
   </component>

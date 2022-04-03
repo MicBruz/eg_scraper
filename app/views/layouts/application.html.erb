@@ -15,6 +15,9 @@
   </head>
 
   <body>
-  <%= yield %>
+    <div class="container">
+      <%= render partial: "shared/flash"  %>
+    </div>
+    <%= yield %>
   </body>
 </html>
