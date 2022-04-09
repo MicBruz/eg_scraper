@@ -1,27 +1,38 @@
 <div class="container mt-5">
-  <h1 class="title">Scrapers#home</h1>
-</div>
-<div class="container mt-5">
-  <h2 class="subtitle">Click to get data about fragrances</h2>
-  <button class="btn btn-primary"><%= link_to 'Get data', '/scrapers/get_items', class: 'white-link-text'  %></button>
-  <button class="btn btn-primary"><%= link_to 'Refresh', '/filtered_by_sex/refresh_numbers', class: 'white-link-text'%></button>
-</div>
-<div class="container mt-5">
-  <h2 class="subtitle">Available fragrances number</h2>
-  <table class="table is-bordered ">
-    <tbody>
-      <tr>
-        <td>Męskie</td>
-        <td><%= @number_of_mens_fragrances %></td>
-      </tr>
-      <tr>
-        <td>Unisex</td>
-        <td><%= @number_of_unisex_fragrances %></td>
-      </tr>
-    </tbody>
-  </table>
-  <p>last pull date: <%= @last_pull %></p>
+  <h3 class="subtitle">Available fragrances number</h3>
+  <div class="col-sm-5 pl-0">
+    <table class="table table-bordered">
+      <thead>
+      <th>Płeć</th>
+      <th>Ilość</th>
+      <th class="font-weight-normal">Change vs. <%= "#{@previous_pull} minutes ago" %></th>
+      </thead>
+        <tbody>
+          <tr>
+            <td>Męskie</td>
+            <td><%= @number_of_mens_fragrances %></td>
+            <td><%= @change_male %></td>
+          </tr>
+          <tr>
+            <td>Unisex</td>
+            <td><%= @number_of_unisex_fragrances %></td>
+            <td><%= @change_unisex %></td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+  <p>
+    Last pull at <%= @last_pull[:time] %> <br>
+    <%= @last_pull[:date] %>
+  </p>
 
+  <div class="mt-3">
+    <button class="btn btn-primary"><%= link_to 'Refresh', '/filtered_by_sex/refresh_numbers', class: 'white-link-text'%></button>
+  </div>
+  <div class="mt-5">
+    <p>Get detailed list of fragrances:</p>
+    <button class="btn btn-primary"><%= link_to 'Get data', '/scrapers/get_items', class: 'white-link-text'  %></button>
+  </div>
 
 
 </div>
