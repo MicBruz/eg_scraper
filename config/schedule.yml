@@ -1,0 +1,4 @@
+update_filtered_numbers_job:
+  # At every 3rd minute past every hour from 8 through 16 on every day-of-week from Monday through Friday.
+  cron: "*/3 8-16 * * 1-5"
+  class: "UpdateFilteredNumbersJob"

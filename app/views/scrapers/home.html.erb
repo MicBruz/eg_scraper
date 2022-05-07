@@ -5,7 +5,7 @@
       <thead>
       <th>Płeć</th>
       <th>Ilość</th>
-      <th class="font-weight-normal">Change vs. <%= "#{@previous_pull} minutes ago" %></th>
+      <th class="font-weight-normal">Change vs. <%= "#{pluralize(@previous_pull, 'minute')} earlier" %></th>
       </thead>
         <tbody>
           <tr>

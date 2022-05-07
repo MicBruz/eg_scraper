@@ -1,5 +1,5 @@
-class UpdateFilteredNumbersJob < ApplicationJob
-  queue_as :default
+class UpdateFilteredNumbersJob
+  include Sidekiq::Job
 
   def perform
     controller = FilteredBySexController.new
